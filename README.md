@@ -41,7 +41,8 @@ a<sub>a</sub>
 
 
 <body> 
-<a href="latihan2.html">Klik Disini Untuk Melihat Latihan dua</a><br/>
+<a href="jaringan komputer.html">Klik Disini Untuk Melihat tentang jaringan komputer</a><br/>
+<a href="domain.html">Klik Disini Untuk Melihat tentang domain</a><br/>
 <a href="http://www.yahoo.com">Klik Disini Untuk Login Yahoo</a><br/>
 </body>
 
