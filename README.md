@@ -5,6 +5,6 @@
 <frame src="menu.html"/>
 <frame src="menusamping.html" name="tampilan" >
 </frameset>
-<frame src="namamahasiswa.html">
+<frame src="namamahasiswa.html"/>
 </frameset>
 </html>
