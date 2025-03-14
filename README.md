@@ -64,3 +64,12 @@ a<sub>a</sub>
 </ul>
 </ol>
 </body>
+
+<body>
+<font face="Arial, Helvetica, sans-serif">Dafa Habibi dan M.Cahya</font><br/>
+</body>
+
+<body>
+<img SRC="jaringanlan.jpeg" height="100" />
+</body>
+</html>
