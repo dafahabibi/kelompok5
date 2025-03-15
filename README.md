@@ -2,7 +2,7 @@
 <head>
 <title>web dari kelompok5</title>
 </head>
-<frameset rows="25%,50%,25%" border=0 border-color="red" >
+<frameset rows="25%,50%,25%">
 		<frame src="judul.html"/>
 	<frameset cols="30%,70%">
 		<frame src="menu.html">
