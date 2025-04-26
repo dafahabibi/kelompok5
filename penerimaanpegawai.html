@@ -1,0 +1,122 @@
+<html lang="id">
+<head>
+<form method="post" action="Penerimaan.php">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persyaratan Penerimaan Program Pegawai</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .persyaratan {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .persyaratan ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .persyaratan li {
+            margin-bottom: 5px;
+        }
+        .persyaratan strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Persyaratan Penerimaan Program Pegawai</h2>
+
+    <div class="persyaratan">
+        <h3>Persyaratan Khusus Berdasarkan Jenis Kelamin</h3>
+        <div>
+            <h4>Pria</h4>
+            <ul>
+                <li><strong>Jenis Kelamin:</strong> Laki-laki</li>
+                <li><strong>Tinggi Badan:</strong> 170 - 179 cm</li>
+                <li><strong>Berat Badan:</strong> Ideal (Tinggi Badan - 110)</li>
+                <li><strong>IPK:</strong> 3.00 - 4.00</li>
+                <li><strong>Pendidikan:</strong> Minimal D3/S1 dari jurusan yang relevan</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Wanita</h4>
+            <ul>
+                <li><strong>Jenis Kelamin:</strong> Perempuan</li>
+                <li><strong>Tinggi Badan:</strong> 160 - 170 cm</li>
+                <li><strong>Berat Badan:</strong> Ideal (Tinggi Badan - 110)</li>
+                <li><strong>IPK:</strong> 3.00 - 4.00</li>
+                <li><strong>Pendidikan:</strong> Minimal D3/S1 dari jurusan yang relevan</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="persyaratan">
+        <h3>Catatan Tambahan</h3>
+        <ul>
+            <li>Jurusan pendidikan yang relevan akan disesuaikan dengan kebutuhan posisi yang dibuka.</li>
+            <li>Pelamar diharapkan melampirkan berkas-berkas pendukung seperti ijazah, transkrip nilai, kartu identitas, dan surat keterangan lainnya sesuai dengan ketentuan yang berlaku.</li>
+            <li>Proses seleksi akan meliputi beberapa tahapan, termasuk seleksi administrasi, tes tertulis, wawancara, dan tes kesehatan (jika diperlukan).</li>
+        </ul>
+    </div>
+<table> 
+<tr>
+<td>Nama</td>
+<td width="200"><input type="text"name="nama"/>
+</tr>
+<tr>
+<td>jenis kelamin</td>
+<td><select name="jk" size="1">
+<option value="L">Laki-Laki</option>
+<option value="P">Perempuan</option>
+</select></td>
+</tr>
+<tr>
+<td>Agama</td>
+<td>
+<input type="radio"name="agama" value="islam">Islam</option></br>
+<input type="radio"name="agama" value="kristen">Katolik</option></br>
+<input type="radio"name="agama" value="kristen">Protestan</option></br>
+<input type="radio"name="agama" value="hindu">Hindu</option></br>
+<input type="radio"name="agama" value="budha">Budha</option></br>
+</td>
+</tr>
+<tr>
+<td>Alamat</td>
+<td><textarea name="alamat" cols="20" rows="5"></textarea></td>
+</tr>
+<tr>
+<td>Tinggi Badan</td>
+<td width="200"><input type="text"name="Tinggi"/>
+</tr>
+<tr>
+<td>Berat Badan</td>
+<td width="200"><input type="text"name="Berat"/>
+</tr>
+<tr>
+<td>IPK</td>
+<td width="200"><input type="text"name="ipk"/>
+</tr>
+<tr>
+<td>Pendidikan</td>
+<td>
+<input type="radio"name="pendidikan" value="S1">S1</option></br>
+<input type="radio"name="pendidikan" value="D3">D3</option></br>
+</td>
+</tr>
+<tr>
+<td><input type="submit" value="Kirim" /></td>
+<td><input type="reset" value="Batal" /></td>
+</tr>
+</table>
+</form>
+</body>
+</html>

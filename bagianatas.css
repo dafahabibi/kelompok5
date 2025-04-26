@@ -1,0 +1,11 @@
+#header {
+padding:10px; /*jarak teks dari garis kotak */
+border:1px solid #000000; /*membuat garis tepi 1 pixel jenis garis solid dan warna hitam */
+background-color:#FFFFCC /*membuat warna latar */
+}
+#footer {
+padding:10px;
+border:1px solid#000000;
+background-color:#FFCCFF;
+}
+</style>
